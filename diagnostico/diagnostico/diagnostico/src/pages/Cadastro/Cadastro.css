@@ -1,0 +1,72 @@
+/* Cadastro.css */
+
+.contact-form {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 24px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-control {
+  margin-bottom: 18px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #555;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #0056b3;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-top: 12px;
+}
+
+button:hover {
+  background-color: #004494;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 14px;
+}
+
+.success-message {
+  color: #2ecc71;
+  font-size: 14px;
+}
+
+.confirmation {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}
